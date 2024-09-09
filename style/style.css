@@ -1,15 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
+.users {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+}
 
 .main-container {
+    padding-top: 30px;
+    width: 800px;
     display: flex;
-
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .userCell {
+    padding: 10px;
+    width: 300px;
+    height: 150px;
     border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    border-radius: 45px;
 }
+.detailUserButton {
+    border-radius: 15px;
+    padding: 10px 20px;
 
+}
 .userInfo{
     height: 200px;
     width: 90%;

@@ -16,7 +16,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             let detailUserButton = document.createElement('button');
             detailUserButton.innerText = `Details`;
-
+            detailUserButton.classList.add('detailUserButton');
             detailUserButton.onclick = function (){
                 localStorage.setItem('user', JSON.stringify(user));
                 console.log(user);
