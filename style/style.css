@@ -1,0 +1,18 @@
+
+
+
+.main-container {
+    display: flex;
+
+}
+
+.userCell {
+    border: black 1px solid;
+}
+
+.userInfo{
+    height: 200px;
+    width: 90%;
+    background-color: lightgray;
+    display: flex;
+}
